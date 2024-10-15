@@ -1,0 +1,121 @@
+/* BookingForm.css */
+
+/* Container styles */
+.booking-form {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .form-container {
+    position: relative;
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    max-width: 90%;
+    width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  /* Form styles */
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin: 4px 0 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Theater seat layout styles */
+  .theater-seats {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .seat-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .seat {
+    display: flex;
+    align-items: center;
+    margin: 0 5px;
+  }
+  
+  .seat input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .seat label {
+    margin: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .form-container {
+      width: 100%;
+      padding: 10px;
+    }
+    
+    .theater-seats {
+      flex-direction: column;
+    }
+    
+    .seat-row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .seat {
+      margin: 2px 0;
+    }
+  }
+  

@@ -1,0 +1,123 @@
+/* AdminAddProduct and Login Styles */
+
+/* Shared Styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #240404;
+    border-radius: 10px;
+    background-color: #75f5f5ea;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #512525;
+    margin-bottom: 20px;
+  }
+  
+  div {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="password"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #0d0707;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  /* Admin Add Product Specific */
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #240404;
+    border-radius: 10px;
+    background-color: #75f5f5ea;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #061c19;
+    color: rgb(234, 232, 235);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0b1b19;
+  }
+  
+  /* Login Page Specific */
+  .app-container {
+    background: linear-gradient(135deg, #aede82, #6472c0);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button.login-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  p:hover {
+    text-decoration: underline;
+  }
+  

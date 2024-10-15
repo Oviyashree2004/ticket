@@ -1,0 +1,69 @@
+/* Home.css */
+
+/* General Styling */
+.home {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+  }
+  
+  /* Hero Section */
+  .hero {
+    
+    color: #36b031;
+    padding: 80px 20px;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #00cc99;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 25px;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .cta-button:hover {
+    background-color: #009966;
+    transform: translateY(-2px);
+  }
+  
+  /* Features Section */
+  .features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  
+  .feature {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .feature h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 1.1em;
+  }
+  

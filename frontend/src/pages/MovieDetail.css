@@ -1,0 +1,136 @@
+.movie-detail {
+  background: linear-gradient(135deg, #aede82, #6472c0);
+  display: flex;
+  padding: 20px;
+  background-color: #202020;
+  color: #fff;
+}
+
+.movie-poster img {
+  width: 300px;
+  height: 450px;
+  border-radius: 10px;
+}
+
+.movie-info-detail {
+  margin-left: 30px;
+}
+
+.movie-info-detail h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.rating {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.book-btn {
+  background-color: #ff385c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.book-btn:hover {
+  background-color: #e0315b;
+}
+
+.about-movie {
+  margin-top: 20px;
+}
+
+.about-movie h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Booking Form Styles */
+.booking-form {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.form-container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1001;
+  width: 100%;
+  max-width: 500px;
+  color: #333; /* Ensure text color is dark for readability */
+}
+
+.form-container h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333; /* Dark text color for headers */
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333; /* Dark text color for labels */
+  font-size: 16px;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px; /* Ensure text size is readable */
+}
+
+.chair-selection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.chair-selection div {
+  display: flex;
+  align-items: center;
+}
+
+.chair-selection input {
+  margin-right: 5px;
+}
+
+button[type="submit"] {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+  background-color: #218838;
+}
